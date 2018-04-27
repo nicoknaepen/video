@@ -6,7 +6,11 @@
         width: "100%", 
         poster: "http://mcp-media.s3.amazonaws.com/anv-iupl/5FA/ACA/5FAACA8FB2F3459C81F2CEF515615DAF", 
         title: "Sintel", 
-        description: "Third Open Movie by Blender Foundation",
-        share: "false"
+        description: "Third Open Movie by Blender Foundation"
     });
+    function ANCaptionLanguages(languages) {
+        console.log(languages);
+    }
+    
+    AnvatoPlayer("player").getCaptionLanguages(ANCaptionLanguages);
 </script> 
