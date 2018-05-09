@@ -1,10 +1,5 @@
-<html>
-<head>
-  <title>Chromecast receiver demo</title>
-  <script src="//cast.anvato.net/anv/prod/scripts/anvreceiver.min.js"></script>
-  <script src="//w3.cdn.anvato.net/player/prod/v3/scripts/anvload.js"></script>
-</head>
-<body>
+<script src="//w3.cdn.anvato.net/player/prod/v3/scripts/anvload.js"></script>
+<script src="//cast.anvato.net/anv/prod/scripts/anvreceiver.min.js"></script>
 <div id="player"></div>
 <script> 
     AnvatoPlayer("player").init({
@@ -14,7 +9,9 @@
         title: "Sintel met caption languages ()", 
         description: "Third Open Movie by Blender Foundation"
     });
+//    function ANCaptionLanguages(languages) {
+//        console.log(languages);
+//    }
+    
 //    AnvatoPlayer("player").getCaptionLanguages(ANCaptionLanguages());
 </script> 
-</body>
-</html>
